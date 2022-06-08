@@ -2,7 +2,7 @@
 mysql> create database IC;
 mysql> use IC;
 
-mysql> create tablE participated(driver_id varchar(10),regno varchar(10),report_no int, damage_amt float(10,2));
+mysql> create table participated(driver_id varchar(10),regno varchar(10),report_no int, damage_amt float(10,2));
 mysql> create table person(driver_id char(10),name varchar(20), address varchar(30));
 mysql> create table CAR(regno varchar(10), model varchar(30), year int(4));
 mysql> create table ACCIDENT(ReportNumber int(10),acc_date date, location varchar(20));
